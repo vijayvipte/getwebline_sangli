@@ -16,6 +16,14 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   
+  <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///var/lib/jenkins/vijay_artifacts/</url>
+       </repository>
+   </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
